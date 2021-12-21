@@ -1,5 +1,5 @@
 BIN_PATH = ./build/Debug
-DATA_PATH = ./data
+DATA_PATH = C:/Users/Jan/Dropbox/_Coding/UdemyCExt/12_Advanced/CmdArguments/data
 
 run_0:
 	$(BIN_PATH)/outDebug $(DATA_PATH) 0

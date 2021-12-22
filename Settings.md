@@ -19,8 +19,8 @@
 
 We will use clang-format and clang-tidy.
 
-Clang-format: Formatter tool for source code, will be installed by the Microsoft C/C++ extension  
-Clang-tidy: Checks for issues in the code (similar to the compiler warnings), will be installed by the  
+- Clang-format: Formatter tool for source code
+- Clang-tidy: Checks for issues in the code (similar to the compiler warnings)
 
 ## Steps from the video
 
@@ -52,7 +52,9 @@ Clang-tidy: Checks for issues in the code (similar to the compiler warnings), wi
   ],
   "C_Cpp_Runner.cStandard": "c99",
   "C_Cpp_Runner.cppStandard": "c++17",
-  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.excludeSearch": [
+      "**/scripts/"
+  ],
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "Workspace_Formatter.includePattern": [

@@ -2,9 +2,7 @@
 
 ## Compiler
 
-- Windows: g++, gdb, make via [Cygwin64](https://cygwin.com/install.html)
-- Linux: g++, gdb, make via package manager (apt for Ubuntu for example)
-- Mac: clang++, lldb, make via xcode-tools
+Any GCC, Clang or MSVC compiler
 
 ## IDE: Visual Studio Code
 
@@ -47,14 +45,10 @@ We will use clang-format and clang-tidy.
   ],
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.includePaths": [],
-  "C_Cpp_Runner.linkerArgs": [
-      "-lm"
-  ],
+  "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.cStandard": "c99",
   "C_Cpp_Runner.cppStandard": "c++17",
-  "C_Cpp_Runner.excludeSearch": [
-      "**/scripts/"
-  ],
+  "C_Cpp_Runner.excludeSearch": [],
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "Workspace_Formatter.includePattern": [
